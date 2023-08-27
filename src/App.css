@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background: transparent !important; */
+  color: white !important;
+}
+
+body {
+  background: linear-gradient(-90deg, #FF799F, #14ffff) !important;
+}
+
+nav {
+  background: linear-gradient(-90deg, #FF799F, #14ffff) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffffff !important;
+
+  color: #303030 !important;
+  border: none !important;
+  transition: all 0.4s;
+}
+
+button:hover {
+  background-color: #14ffff !important;
+  color: #303030 !important;
+  border: none !important;
+}
+
+.ant-dropdown-menu {
+  background: linear-gradient(-90deg, #FF799F, #14ffff) !important;
+}
+
+.popup-root .popup-content div {
+  background: linear-gradient(-90deg, #FF799F, #14ffff) !important;
+}
+
+.popup-content {
+  background: linear-gradient(-90deg, #14ffff, #FF799F) !important;
+  padding: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 320px;
+  height: fit-content;
+}
+
+#popup-1 {
+  /* background: linear-gradient(-90deg, #FF799F, #14ffff) !important; */
+  background: linear-gradient(-90deg, #14ffff, #FF799F) !important;
+  padding: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 300px;
+  height: fit-content;
+
+}
+
+#popup-2 {
+  background: linear-gradient(-90deg, #14ffff, #FF799F) !important;
+  padding: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 200px;
+  height: fit-content;
+
+}
+
+
+
+#popup-1 div {
+  margin: 0px !important;
+  margin-left: 20px !important;
+}
+
+.popup-content div,
+#popup-2 div {
+  margin: 0px !important;
+  margin-left: 20px !important;
+}
+
+.popup-content a,
+#popup-2 a,
+#popup-1 a {
+  font-size: 15px;
+  font-weight: 500
+}
+
+
+.MuiPaper-elevation {
+  background-color: #FF799F !important;
+}
+
+main,
+footer,
+form,
+input,
+section,
+main>div,
+footer>div,
+textarea {
+  background-color: transparent !important;
+}
+
+footer {
+  border-top: 1px solid white !important;
+}
+
+
+
+:root {
+  --primary-color: #14ffff;
+  --secondary-color: #314252;
+  --base-color: #ffffff;
+}
