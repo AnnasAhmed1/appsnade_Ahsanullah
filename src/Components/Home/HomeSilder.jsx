@@ -13,20 +13,21 @@ const HomeSilder = () => {
       text: "Development Services",
       coloredText: "Full-Fledged Mobile App",
       subText:
-        "We endeavor to offer state-of-the-art portable advancement benefits that help organizations accomplish their greatest potential.",
+        "To help businesses reach their full potential, we as a mobile app development company endeavor to provide cutting-edge application development services.",
+
       reverse: true,
     },
     {
-      text: "A Company With",
-      coloredText: "Global Presence",
+      text: "A Mobile App Development Company",
+      coloredText: "With Global Presence",
       subText:
-        "We're constantly evolving and creating digital solutions for businesses across the globe",
+        "We are a mobile app development company constantly developing and producing digital solutions for app development companies around the world.",
     },
     {
-      text: "Primed For The Future With",
-      coloredText: "Our Innovative Approach",
+      text: "A Mobile App Development Company Ready For The Future",
+      coloredText: "With Our Innovative Approach",
       subText:
-        "From AI to wearable devices, we leverage emerging technologies to transform lives and redefine industry standards.",
+        "We as a mobile app development company use revolutionary innovations, including devices and AI, to set industry standards and transform lives.",
     },
   ];
   function SamplePrevArrow(props) {
@@ -46,7 +47,7 @@ const HomeSilder = () => {
     return (
       <p
         className={"arrows prev-arrow"}
-        style={{ ...style, display: "inline-block/", }}
+        style={{ ...style, display: "inline-block/" }}
         onClick={onClick}
       >
         <WestSharpIcon />0{activeSlide + 1}
@@ -101,10 +102,8 @@ const HomeSilder = () => {
     ),
   };
   const SliderContent = ({ text, coloredText, subText, reverse = false }) => {
-    return ( 
-      <div
-        className=" home-main-slider"
-      >
+    return (
+      <div className=" home-main-slider">
         {/* anns */}
         <ColoredHeading
           text={text}
@@ -112,7 +111,7 @@ const HomeSilder = () => {
           reverse={reverse}
           dataText={"Experience"}
         />
-        <p style={{color:'#fff'}}>{subText}</p>
+        <p style={{ color: "#fff" }}>{subText}</p>
       </div>
     );
   };

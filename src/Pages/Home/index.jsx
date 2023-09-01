@@ -435,7 +435,7 @@ const Home = () => {
                 <P1
                   color="#ffff"
                   text={
-                    "Build future-ready applications through primary, consulting, and trending services to accelerate growth and agile transformation. With a strong command of native, cross-platform, and hybrid mobile app development, we offer top-tier mobile app development services tailored to the stakeholders’ goals and objectives. We help businesses innovate complex application landscapes with a mixture of digital, SaaS, and legacy systems through speed and agility."
+                    "Get reliable mobile application development services created by a reputable mobile app development company supported by a team of highly qualified developers to create future-ready applications. We provide top-tier mobile application development services that are adapted to the aims and objectives of the stakeholders and possess expertise in native, cross-platform, and hybrid mobile app development. With a combination of digital, SaaS, and legacy technologies, we assist app development companies in innovating difficult application environments."
                   }
                 />
               </div>
@@ -576,7 +576,7 @@ const Home = () => {
             >
               <H2
                 text={
-                  "Assisting New companies With accomplishing Outstanding Development"
+                  "Assisting new app development companies to reach outstanding levels of custom app development"
                 }
                 dataText="Sustainability"
                 color="#14ffff"
@@ -584,7 +584,7 @@ const Home = () => {
               <div>
                 <P1
                   text={
-                    "After bagging the industry's most notorious awards and getting featured in Forbes, Inc. Entrepreneur Media, and other top publications as an industry leader in mobile app development, we have established ourselves from a mere silicon valley startup to one of the fastest-growing digital transformation companies worldwide"
+                    "We as a mobile app development company have transformed from a small startup to one of the most rapidly expanding digital transformation app design company that globally won the industry's most prestigious awards and been recognized in Forbes, Inc. Entrepreneur Media, and other top publications as an industry leader in mobile app development companies."
                   }
                   color="#ffffff"
                 />
@@ -614,7 +614,7 @@ const Home = () => {
                 <P1
                   color={"#fff"}
                   text={
-                    "See the rundown underneath for the finished and conveyed projects for our clients in various ventures. Appswaves' group of nimble designers and project directors follow a characterized procedure to embrace projects and take care of the client's prerequisites. Our way of life is properly created to convey a compensating experience for our designing group and the client as we underscore firmly coordinating with your group for the top-level turn of events."
+                    "For a list of the completed and delivered projects for our clients in various endeavors, see the section below. The team of agile designers and project executives at Appswaves adopts projects and attends to the client's requirements according to a defined process. As a mobile app development company we emphasize strongly coordinating with your group for the major turn of events, our way of life is appropriately built to transmit a compensating experience for our design group and the client."
                   }
                 />
               </section>
@@ -623,7 +623,7 @@ const Home = () => {
                 <P1
                   data-aos="zoom-in"
                   text={
-                    "The application needed to have a connection point, be super-accommodating, and be less diverting for corporate workers who as of now have an upsetting position. It must be highlighted pressed and designated at advancing wellbeing activities including drinking sufficient water, working out, getting some much-needed rest from the screens, taking part in exercises, and practicing good eating habits morning meals, snacks, and suppers. We carried out a careful analysis of the objective market, projected clients, and the general extent of the undertaking."
+                    "The application needs to be highly adaptable, have a connecting point, and be less distracting for corporate workers who already find themselves in challenging circumstances. It needs to be emphasized that it is pressed and targeted at promoting well-being behaviors like getting sufficient rest, exercising, drinking enough water, eating well at breakfast, snacks, and dinner, and taking breaks from screens. As a mobile app development company, we carefully examined the target market, projected customers, and the entire scope of the project."
                   }
                 />
                 <img
@@ -643,19 +643,19 @@ const Home = () => {
                 <div>
                   {/* <AppTypes data-aos='zoom-in' image={"soundly.png"} color={"#DA2024"} /> */}
                   <H2
-                    text={"The Thought  Behind Soundly App"}
+                    text={"The Idea Behind the Soundly App"}
                     data-aos="fade-in"
                   />
                   <P1
                     data-aos="zoom-in"
                     text={
-                      "Soundly has revolutionized the way people experience music. Designed to enable music lovers to stream millions of songs from new artists through the app, the Soundly app lets you save songs for later by creating countless playlists, uploading your own tracks, supporting your favorite artists, and experiencing a next-gen technology and music collaboration in perfect harmony."
+                      "The way that people listen to music has been transformed by Soundly. The Soundly app was developed to let listeners stream millions of songs from new artists through the app. You can save songs for later by making countless playlists, uploading your tracks, supporting your favorite artists, and taking advantage of how next-generation technology and music are combined in perfect harmony."
                     }
                   />
                   <P1
                     data-aos="zoom-out"
                     text={
-                      "The idea was based not only on building a revolutionary entertainment app but also on ensuring predictive, user-friendly, and seamless navigation and controls that would let the users instantly tap their way to their favorite songs coming directly from new artists or upload their songs."
+                      "The concept was not only to create a ground-breaking entertainment app, but also to guarantee predictive, user-friendly, and smooth navigation and controls that would enable users to contribute their songs or quickly tap their way to their favorite songs by new artists."
                     }
                   />
                 </div>
@@ -685,20 +685,20 @@ const Home = () => {
                   {/* <AppTypes image={"pure_plank_logo.png"} color={"#8EF08B"} /> */}
                   <H2
                     data-aos="zoom-in"
-                    text={"The Idea Behind Soundly"}
+                    text={"The Idea Behind Pure Plank"}
                     color="#ffffff"
                   />
                   <P1
                     data-aos="zoom-in"
                     text={
-                      "Plank is an online platform for fitness and exercise enthusiasts aiming to look after their health and exercise at home. With video tutorials and challenges, this platform brings a new idea to life. Appswaves has developed several digital solutions, including mobile apps, pertaining to the fitness and healthcare sector."
+                      "Plank is a website for fitness and exercise enthusiasts who want to maintain their health and work out at home. This platform gives a novel concept of life through challenges and video training. Appswaves has created several digital products, including mobile custom app development, for the healthcare and fitness businesses."
                     }
                     color="#ffffff"
                   />
                   <P1
                     data-aos="zoom-in"
                     text={
-                      "The Plank app is a complete solution surrounding the planking exercise where users get all the functions and features in one place to get the ideal results. The app also had video tutorials and instructions for the users, as well as the option to buy accessories with complete payment integration options."
+                      "The Plank app is a comprehensive solution for the planking workout that gives users access to all the features and capabilities they need in one location for the best results. The software also offered users the chance to purchase accessories with full payment integration possibilities, as well as video demonstrations and instructions."
                     }
                     color="#ffffff"
                   />

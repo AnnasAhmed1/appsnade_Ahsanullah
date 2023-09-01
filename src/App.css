@@ -3,7 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   /* background: transparent !important; */
-  color: white !important;
+  color: #2c3136 !important;
+}
+
+*:focus {
+  outline: none;
 }
 
 body {
