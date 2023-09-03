@@ -8,7 +8,7 @@ export const H1 = ({
 }) => {
   return (
     <h1
-      data-text={dataText}
+      // data-text={dataText}
       style={{
         color: color ? color : null,
         textAlign: center ? "center" : null,
@@ -23,7 +23,7 @@ export const H1 = ({
 export const H2 = ({ text, color = false, center = false, dataText = "" }) => {
   return (
     <h2
-      data-text={dataText}
+      // data-text={dataText}
       style={{
         color: color ? color : null,
         textAlign: center ? "center" : null,
@@ -44,7 +44,7 @@ export const H3 = ({
 }) => {
   return (
     <h3
-      data-text={dataText}
+      // data-text={dataText}
       onClick={onClick}
       style={{
         color: color ? color : null,
@@ -59,7 +59,7 @@ export const H3 = ({
 export const H4 = ({ text, color = false, dataText = "" }) => {
   return (
     <h4
-      data-text={dataText}
+      // data-text={dataText}
       style={{
         color: color ? color : null,
       }}
@@ -72,7 +72,7 @@ export const H4 = ({ text, color = false, dataText = "" }) => {
 export const H5 = ({ text, color = false, dataText = "" }) => {
   return (
     <h5
-      data-text={dataText}
+      // data-text={dataText}
       style={{
         color: color ? color : null,
       }}

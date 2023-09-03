@@ -7,7 +7,11 @@ const ColoredHeading = ({
   dataText = "",
 }) => {
   return (
-    <h1 style={{color :'#fff'}} data-text={dataText} className="coloredHeading">
+    <h1
+      style={{ color: "#fff" }}
+      // data-text={dataText}
+      className="coloredHeading"
+    >
       {!reverse ? text : null}
       <span>{" " + coloredText + " "}</span>
       {reverse ? text : null}
