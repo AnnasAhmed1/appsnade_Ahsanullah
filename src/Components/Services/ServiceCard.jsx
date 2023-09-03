@@ -11,7 +11,7 @@ const ServiceCard = ({ route, title, description }) => {
   return (
     <div
       onClick={() => {
-        navigate(`/${route}/${title?.replace((/ /g, `-`))}`);
+        navigate(`/${title?.replace(/\s+/g, "-")}`);
       }}
       className="service-card"
     >

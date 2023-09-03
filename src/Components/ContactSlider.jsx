@@ -6,8 +6,8 @@ import "../Styles/component.css";
 const ContactSlider = () => {
   const places = [
     {
-      city: "USA",
-      address: "1001 South Main Street STE 4255 Kalispell, MT 59901",
+      city: "Greenwich",
+      address: "312 SW Greenwich Dr Missouri 64082",
     },
     // {
     //   city: "Dubai",

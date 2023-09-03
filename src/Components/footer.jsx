@@ -80,7 +80,7 @@ const Footer = () => {
                   <Link
                     className="grid-item"
                     key={index}
-                    to={`/services/${service.replace(/ /g, "-")}`}
+                    to={`/${service.replace(/ /g, "-")}`}
                   >
                     {service}
                   </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
                   <Link
                     className="grid-item"
                     key={index}
-                    to={`/solutions/${solution.replace(/ /g, "-")}`}
+                    to={`/${solution.replace(/ /g, "-")}`}
                   >
                     {solution}
                   </Link>
