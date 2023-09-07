@@ -65,7 +65,6 @@ const HomeSilder = () => {
     prevArrow: <SampleNextArrow />,
     afterChange: (currentSlide) => {
       setActiveSlide(currentSlide);
-      console.log("Active slide:", currentSlide);
     },
 
     appendDots: (dots) => (
@@ -119,7 +118,6 @@ const HomeSilder = () => {
     <div>
       <Slider {...settings}>
         {silderContentArr.map((content, index) => {
-          console.log(content);
           return (
             // <p>annas</p>
             <SliderContent

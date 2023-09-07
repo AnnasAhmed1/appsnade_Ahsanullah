@@ -527,7 +527,7 @@ const Navbar = ({ gradientButton = false }) => {
                 return (
                   <MenuItem>
                     <li key={i}>
-                      <Link to={v.title == "home" ? "/" : `/${v.title}`}>
+                      <Link to={v.title == "Home" ? "" : `/${v.title}`}>
                         {v.title}
                       </Link>
                     </li>
@@ -554,7 +554,9 @@ const Navbar = ({ gradientButton = false }) => {
                     >
                       <Link
                         to={
-                          v.title !== "Insights"
+                          v.title == "Home"
+                            ? ""
+                            : v.title !== "Insights"
                             ? `/${v.title.replace(/\s+/g, "-")}`
                             : null
                         }
@@ -566,7 +568,7 @@ const Navbar = ({ gradientButton = false }) => {
                   ) : (
                     <Link
                       to={`/${
-                        v.title === "home" ? "/" : v.title.replace(/\s+/g, "-")
+                        v.title === "Home" ? "" : v.title.replace(/\s+/g, "-")
                       }`}
                       style={{ color: "#000" }}
                     >

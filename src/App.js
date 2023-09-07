@@ -71,7 +71,6 @@ function App() {
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/events" element={<Events />} />
         <Route path="/referral-program" element={<ReferralProgram />} />
-
         <Route path="/app-cost-calculator" element={<AppCostCalculator />} />
         <Route path="/register" element={<Register />} />
         <Route path="/location" element={<Location />} />
@@ -79,9 +78,6 @@ function App() {
         <Route path="/chk" element={<Form />} />
       </Routes>
       <ScrollToTop />
-      {/* <Layout>
-        <Services />
-      </Layout> */}
     </Router>
   );
 }
