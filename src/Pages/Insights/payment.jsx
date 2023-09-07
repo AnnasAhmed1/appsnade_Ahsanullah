@@ -13,6 +13,7 @@ import { useParams } from "react-router-dom";
 import GradeSharpIcon from "@mui/icons-material/GradeSharp";
 import AwardsSlider from "../../Components/Home/AwardsSlider";
 import CurrencyInput from "react-currency-input-field";
+import { MenuItem, Select } from "@mui/material";
 
 function isNumber(str) {
   if (str.trim() === "") {
@@ -33,6 +34,11 @@ const Payment = () => {
   const handleChange2 = (event) => {
     setDesc({ textAreaValue: event.target.value });
   };
+  const [currency, setCurrency] = React.useState("");
+
+  const handleChangeCurrency = (event) => {
+    setCurrency(event.target.value);
+  };
 
   return (
     <Layout>
@@ -42,7 +48,7 @@ const Payment = () => {
             <div>
               <div
                 style={{
-                  marginBottom: "80px",
+                  marginBottom: "40px",
                   color: "#14ffff",
                 }}
               >
@@ -58,8 +64,8 @@ const Payment = () => {
               </div>
             </div>
           </section>
-
-          <section className="consultation-section">
+          <img src={require("../../Assets/stripe.png")} alt="" />
+          {/* <section className="consultation-section">
             <div>
               <H1
                 text="The benefits of online payments"
@@ -83,7 +89,7 @@ const Payment = () => {
                 alt=""
               />
             </div>
-          </section>
+          </section> */}
 
           <section className="consultation-section">
             <div style={{ marginTop: 30 }}>
@@ -99,7 +105,39 @@ const Payment = () => {
 
             <div style={{ marginTop: 30 }}>
               <h3 style={{ color: "#ffff" }}>Currency</h3>
-              <CurrencyInput
+              <select
+                style={{
+                  width: "100%",
+                  height: 50,
+                  padding: 10,
+                  background: "transparent",
+                }}
+              >
+                <option>USD</option>
+                <option>EUR</option>
+                <option>PKR</option>
+              </select>
+              {/* <Select
+                // labelId="demo-simple-select-label"
+                // id="demo-simple-select"
+                // value={"USD"}
+                inputProps={{ "aria-label": "Without label" }}
+                displayEmpty
+                value={currency}
+                label="currency"
+                onChange={handleChangeCurrency}
+                style={{
+                  width: "100%",
+                }}
+              >
+                <MenuItem value="">
+                  <em>None</em>
+                </MenuItem>
+                <MenuItem>USD</MenuItem>
+                <MenuItem>EUR</MenuItem>
+                <MenuItem>PKR</MenuItem>
+              </Select> */}
+              {/* <CurrencyInput
                 id="input-example"
                 name="input-name"
                 prefix="£"
@@ -109,7 +147,7 @@ const Payment = () => {
                 decimalsLimit={2}
                 onValueChange={(value, name) => console.log(value, name)}
                 style={{ width: "100%", height: 50, padding: 20 }}
-              />
+              /> */}
             </div>
           </section>
           <div style={{ marginTop: 20 }}>
@@ -122,9 +160,9 @@ const Payment = () => {
             />
           </div>
           <div>
-            <h1 style={{ color: "#ffff", marginTop: 30, textAlign: "center" }}>
+            {/* <h1 style={{ color: "#ffff", marginTop: 30, textAlign: "center" }}>
               Payment geteway
-            </h1>
+            </h1> */}
             <a
               href="https://buy.stripe.com/test_eVa6sv6mMeiL1cAcMM"
               target="_blank"
@@ -148,6 +186,8 @@ const Payment = () => {
             </a>
           </div>
         </div>
+        <br />
+        <br />
       </main>
     </Layout>
   );
