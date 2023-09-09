@@ -855,13 +855,14 @@ footer .bottom-section {
     margin-bottom: 15px;
 }
 
+.sub-nav-container>div>div h4,
 .sub-nav-container>div>div a {
     display: block;
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 8px;
     color: var(--secondary-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .sub-nav-container>div>div a:hover {
